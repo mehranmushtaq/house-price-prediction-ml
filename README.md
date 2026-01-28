@@ -47,7 +47,7 @@ It demonstrates the complete ML workflow including data preprocessing, model tra
 - Plotted Actual vs Predicted (House Price Model)
 - The points lie close to the diagonal line, showing strong model performance and good generalization
 
-![Actual vs Predicted](Actual vs Predicted(House Price Model).png
+![Actual vs Predicted](actual_vs_predicted.png)
 
 
 
