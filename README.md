@@ -41,22 +41,35 @@ The model was trained using a **67/33 train-test split** and achieved high accur
 The following plot demonstrates the strong correlation between the model's predictions and the actual market values:
 
 ![Actual vs Predicted](actual_vs_predicted.png)
+The scatter plot shows that predicted house prices closely follow actual values,
+indicating strong model performance and a high R² score.
 
 ## 🚀 Getting Started
 
-### **Prerequisites**
-Ensure you have the following Python libraries installed:
- -pandas
- -matplotlib
- -scikit-learn
+## ✅ Prerequisites
 
- ##✨Future Enhancements
-• Feature Scaling: Implement StandardScaler to handle varying scales in features like LotArea.
+Before running this project, make sure you have the following:
 
-• Regularization: Add Ridge and Lasso regression to improve generalization.
+- Basic knowledge of **Python**
+- Understanding of **Machine Learning fundamentals**
+- Familiarity with **Linear Regression**
+- Installed **Python 3.x**
+- Jupyter Notebook or any Python IDE
 
-• Cross-Validation: Use K-Fold validation to ensure model stability.
+### Required Python Libraries
+Install the required libraries using:
 
-• Deployment: Create a Flask or FastAPI web app for real-time price estimation.
+pip install numpy pandas matplotlib seaborn scikit-learn
+## * Future Improvements
 
-Created by Mehran Mushtaq
+- Add Ridge & Lasso Regression
+
+- Try Polynomial Regression
+
+- Feature scaling and cross-validation
+
+- Deploy model using Flask or FastAPI
+
+- ## 👤 Author
+**Mehran Mushtaq**  
+B.Tech CSE | Machine Learning Enthusiast
