@@ -46,13 +46,17 @@ The following plot demonstrates the strong correlation between the model's predi
 
 ### **Prerequisites**
 Ensure you have the following Python libraries installed:
- pandas
- matplotlib
- scikit-learn
+ -pandas
+ -matplotlib
+ -scikit-learn
 
- ✨ Future Enhancements
+ ##✨Future Enhancements
 • Feature Scaling: Implement StandardScaler to handle varying scales in features like LotArea.
+
 • Regularization: Add Ridge and Lasso regression to improve generalization.
+
 • Cross-Validation: Use K-Fold validation to ensure model stability.
+
 • Deployment: Create a Flask or FastAPI web app for real-time price estimation.
+
 Created by Mehran Mushtaq
