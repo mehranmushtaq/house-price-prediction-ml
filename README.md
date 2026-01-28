@@ -1,12 +1,12 @@
-##House Price Prediction using Linear Regression
+House Price Prediction using Linear Regression
 
-## 📌 Overview
+Overview
 This project predicts house prices using **Machine Learning (Linear Regression)**.  
 It demonstrates the complete ML workflow including data preprocessing, model training, evaluation, and visualization.
 
 
 
-## 📂 Dataset
+📂 Dataset
 - **File:** `house_prices_practice.csv`
 - Contains features such as:
   - Lot Area
