@@ -23,11 +23,12 @@ The model utilizes the `house_prices_practice.csv` dataset. Key features used fo
 - Scikit-learn
 - Jupyter Notebook
 
-##How to Run
+## How to Run
 1. Clone the repository
 2. Open 'ai model. ipynb' in Jupyter Notebo
 3. Run all cells
-4. 
+
+
 ## 📈 Model Performance
 The model was trained using a **67/33 train-test split** and achieved high accuracy metrics:
 
