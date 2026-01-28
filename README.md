@@ -1,23 +1,20 @@
-House Price Prediction using Linear Regression
+# 🏠 House Price Prediction using Linear Regression
 
-Overview
-This project predicts house prices using **Machine Learning (Linear Regression)**.  
-It demonstrates the complete ML workflow including data preprocessing, model training, evaluation, and visualization.
+A Machine Learning project that predicts residential house prices using Multiple Linear Regression in Python.
 
+## 📝 Overview
+This project analyzes housing data to build a predictive model based on architectural and spatial features. By utilizing `Scikit-Learn`, the model identifies linear relationships between property attributes and their market value.
 
+## 📊 Dataset & Features
+The model utilizes the `house_prices_practice.csv` dataset. Key features used for prediction include:
+* **OverallQual**: Rates the overall material and finish of the house.
+* **GrLivArea**: Above grade (ground) living area square feet.
+* **GarageCars**: Size of garage in car capacity.
+* **TotalBsmtSF**: Total square feet of basement area.
+* **YearBuilt**: Original construction date.
+* **LotArea**: Lot size in square feet.
 
-##📂 Dataset
-- **File:** `house_prices_practice.csv`
-- Contains features such as:
-  - Lot Area
-  - Overall Quality
-  - Year Built
-  - Living Area
-  - Other numerical attributes
-
-
-
-## 🛠️ Technologies Used
+## & Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -26,51 +23,35 @@ It demonstrates the complete ML workflow including data preprocessing, model tra
 - Scikit-learn
 - Jupyter Notebook
 
+##How to Run
+1. Clone the repository
+2. Open 'ai model. ipynb' in Jupyter Notebo
+3. Run all cells
+4. 
+## 📈 Model Performance
+The model was trained using a **67/33 train-test split** and achieved high accuracy metrics:
 
+| Metric | Score |
+| :--- | :--- |
+| **R² Score** | **0.974** |
+| **Adjusted R²** | **0.971** |
 
-## 📊 Exploratory Data Analysis (EDA)
-- Checked missing values and data types
-- Visualized relationships between features and house prices
-- Used correlation analysis to select important features
-
----
-
-## 🤖 Model Details
-- **Algorithm:** Linear Regression
-- **Train-Test Split:** Yes
-- **Evaluation Metrics:**
-  - R² Score ≈ **0.98**
-  - Adjusted R² ≈ **0.98**
-
-
-## 📈 Model Evaluation
-- Plotted Actual vs Predicted (House Price Model)
-- The points lie close to the diagonal line, showing strong model performance and good generalization
+### **Actual vs. Predicted Results**
+The following plot demonstrates the strong correlation between the model's predictions and the actual market values:
 
 ![Actual vs Predicted](actual_vs_predicted.png)
 
+## 🚀 Getting Started
 
+### **Prerequisites**
+Ensure you have the following Python libraries installed:
+ pandas
+ matplotlib
+ scikit-learn
 
-## 📌 Results
-- The model achieved **high accuracy**
-- Demonstrates a strong linear relationship between selected features and house prices
-
-
-## 🚀 How to Run
-1. Clone the repository
-2. Open `ai_model.ipynb` in Jupyter Notebook
-3. Run all cells
-
-
-
-## ✨ Future Improvements
-- Add Ridge & Lasso Regression
-- Try Polynomial Regression
-- Feature scaling and cross-validation
-- Deploy model using Flask or FastAPI
-
----
-
-## 👤 Author
-**Mehran Mushtaq**  
-B.Tech CSE | Machine Learning Enthusiast
+ ✨ Future Enhancements
+• Feature Scaling: Implement StandardScaler to handle varying scales in features like LotArea.
+• Regularization: Add Ridge and Lasso regression to improve generalization.
+• Cross-Validation: Use K-Fold validation to ensure model stability.
+• Deployment: Create a Flask or FastAPI web app for real-time price estimation.
+Created by Mehran Mushtaq
